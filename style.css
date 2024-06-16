@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Hubot Sans';
+    src:
+      url('Hubot-Sans.woff2') format('woff2 supports variations'),
+      url('Hubot-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+html{
+    height:100%;
+}
+body{
+    margin:0px;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    font-family: 'Hubot Sans';
+}
+p{
+    margin:0px;
+}
+div{
+    display:flex;
+    margin:0px;
+}
+button{
+    display:flex;
+    margin:0px;
+}
+.row{
+    flex-direction:row;
+}
+.col{
+    flex-direction:column;
+}
