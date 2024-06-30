@@ -51,6 +51,11 @@ button{
     font-weight:600;
     color:rgb(55, 54, 66);
     transition: 0.3s;
+    text-decoration:none;
+}
+.navlogo img{
+    margin:20px;
+    width:30px;
 }
 .navitem:hover{
     color:rgb(92, 90, 110);
@@ -66,7 +71,7 @@ button{
 .sect{
     justify-content:start;
     width:50%;
-    padding:20px;
+    padding:70px 20px 20px 20px;
 }
 .hTitle{
     align-self:start;
