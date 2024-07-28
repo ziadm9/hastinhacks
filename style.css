@@ -140,3 +140,13 @@ hr{
     border: solid 1px black;
     margin-top: 50px
 }
+#footer{
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.footerText{
+    color:lightgray;
+    font-size:14px;
+    margin:3px 0px;
+}
