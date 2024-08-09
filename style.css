@@ -37,19 +37,32 @@ button{
     flex-direction:column;
 }
 #nav{
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    background-color: #29bd7d;
+    background-color: rgba(46,168,156,1);
     width:100%;
     position:fixed;
     top: 0;
-    box-shadow: 0px 1px 25px;
+    box-shadow: 0px 1px 10px;
+    
+}
+.hidden{
+    opacity:0;
+}
+#nav2{
+    justify-content:start;
+    align-items:center;
+    background-color: rgba(46,168,156,1);
+    width:100%;
+    position:fixed;
+    top: 0;
+    box-shadow: 0px 1px 10px;
 }
 .navitem{
     margin:20px;
     font-size:20px;
     font-weight:600;
-    color:rgb(55, 54, 66);
+    color:#fefefe;
     transition: 0.3s;
     text-decoration:none;
 }
@@ -58,13 +71,20 @@ button{
     width:30px;
 }
 .navitem:hover{
-    color:rgb(92, 90, 110);
+    color:rgb(247, 201, 107);
 }
 #wrapper{
     background: rgb(52,145,212);
-    background: linear-gradient(0deg, rgba(52,145,212,1) 0%, rgba(43,178,199,1) 36%, rgba(41,189,125,1) 100%);
+    background: linear-gradient(180deg, rgba(46,168,156,1) 0%, rgba(43,158,146,1) 35%, rgb(44, 141, 131) 100%);
     height:auto;
     margin-top:50px;
+    width:100%;
+    align-items:center;
+}
+#wrapper2{
+    background: rgb(52,145,212);
+    background: linear-gradient(180deg, rgba(46,168,156,1) 0%, rgba(43,158,146,1) 35%, rgb(44, 141, 131) 100%);
+    height:auto;
     width:100%;
     align-items:center;
 }
@@ -77,15 +97,16 @@ button{
     align-self:start;
     font-weight:bold;
     font-size:50px;
-    color:rgb(55, 54, 66);
+    color:rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
 .sItem{
     margin:10px;
 }
 .time{
-    color:rgb(40, 40, 48);
+    color:rgb(255, 255, 255);
     font-size:18px;
-    font-weight:500;
+    font-weight:400;
     margin: 20px 0px 20px;
 }
 #sItems{
@@ -101,13 +122,123 @@ button{
 #right{
     width:60%;
 }
+#pros{
+    align-self:center;
+    margin-bottom:10px;
+    font-size:36px;
+}
+#bold{
+    font-weight:bold;
+}
+#pros1{
+    align-self:center;
+    margin: 20px 0px;
+    color:rgb(247, 201, 107);
+}
+#pros0{
+    align-self:center;
+    margin: 40px 0px 20px 0px;
+    color:rgb(247, 201, 107);
+}
+.prosd{
+    width:50%;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding:20px;
+    border: solid white 4px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+#thx{
+    align-self:center;
+    margin-bottom:20px;
+    color:rgb(247, 201, 107);
+    font-size:60px;
+}
+#prospectus{
+    border: white solid;
+    border-width: 1px 1px 0px 1px;
+    width:70%;
+    padding:0px;
+    margin: 20px 0px;
+}
+.prosRow{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    border: white solid;
+    border-width: 0px 0px 1px 0px;
+    width:100%;
+}
+.LCol{
+    display:flex;
+    flex-direction:column;
+    width:33%;
+    border: white solid;
+    border-width: 0px 1px 0px 0px;
+    padding:5px 0px;
+    color:white;
+    text-align:center;
+}
+.LCol p{
+    padding: 10px 0px;
+    font-size:14px;
+}
+.h{
+    font-weight:bold;
+    font-size:24px;
+}
+.b{
+    padding:20px 0px;
+}
+.RCol{
+    display:flex;
+    flex-direction:column;
+    width:66%;
+    padding:5px 0px;
+}
+.xRow{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+}
+.xRow p{
+    width:25%;
+    font-size:14px;
+    font-weight:bold;
+    padding: 10px 0px;
+    text-align:center;
+}
+.bRow{
+    padding: 0px 0px 5px 0px;
+}
+.bRow p{
+    width: 25%;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    padding:5px 0px 0px 0px
+}
+#br{
+    color:#CD7F32;
+}
+#ag{
+    color:#C0C0C0;
+}
+#au{
+    color:#FFD700;
+}
+#pl{
+    color:#72fdff;
+}
 .event{
     padding:10px;
-    color:rgb(55, 54, 66);
+    color:rgb(247, 201, 107);
     font-size:18px;
     border-radius:10px;
-    box-shadow: 0px 1px 5px;
-    background-color:#3491d4;
+    box-shadow: 0px 0px 15px rgb(33, 116, 107);
+    background-color:rgb(49, 172, 160);
     margin: 10px 0px 10px 0px;
     justify-content:center;
     font-weight:600;
@@ -117,18 +248,21 @@ button{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-size:20px;
-    color:rgb(55, 54, 66);
+    color:rgb(255, 255, 255);
     margin: 3px 0px;
+}
+#elink{
+    color:rgb(247, 201, 107)
 }
 .droptitle{
     font-size:24px;
     font-weight:600;
-    color:rgb(55, 54, 66);
+    color:rgb(247, 201, 107);
     margin: 3px 0px;
 }
 hr{
     width:100%;
-    border: solid rgb(29, 29, 29) 1px;
+    border: solid rgb(255, 255, 255) 1px;
     margin: 8px 0px;
 }
 .hi{
@@ -140,6 +274,12 @@ hr{
     border: solid 1px black;
     margin-top: 50px
 }
+.sDesc{
+    align-self:center;
+    color:white;
+    font-size:18px;
+    margin:5px 0px;
+}
 #footer{
     justify-content:center;
     align-items:center;
@@ -147,7 +287,7 @@ hr{
     padding-bottom:30px;
 }
 .footerText{
-    color:#a0a0a0;
+    color:#bebebe;
     font-size:14px;
     margin:3px 0px;
 }
