@@ -71,8 +71,14 @@ button{
     width:30px;
 }
 #logo{
-    margin:20px;
-    width:30px;
+    width:40px;
+    margin-right:5px;
+
+}
+#logolink{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
 }
 .navitem:hover{
     color:rgb(247, 201, 107);
