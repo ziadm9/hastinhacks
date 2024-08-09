@@ -70,6 +70,10 @@ button{
     margin:20px;
     width:30px;
 }
+#logo{
+    margin:20px;
+    width:30px;
+}
 .navitem:hover{
     color:rgb(247, 201, 107);
 }
@@ -270,6 +274,7 @@ hr{
     flex-direction:row;
     justify-content:space-between;
 }
+
 #top{
     border: solid 1px black;
     margin-top: 50px
