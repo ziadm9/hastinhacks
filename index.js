@@ -16,7 +16,7 @@ for (let i = 0; i < acc.length; i++) {
 
 document.addEventListener('DOMContentLoaded', function (event) {
   // array with texts to type in typewriter
-  var dataText = ['East Bay Hacks', 'Also known as HastinHacks'];
+  var dataText = ['> init East Bay Hacks', '> Also known as HastinHacks'];
 
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
       // chekc if text isn't finished yet
       if (i < (text.length)) {
           // add next character to header
-          document.getElementById('maintext').innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+          document.getElementById('maintext').innerHTML = text.substring(0, i + 1) + '|';
 
           // wait for a while and call this function again for next character
           setTimeout(function () {
               typeWriter(text, i + 1, fnCallback)
-          }, 150);
+          }, 75);
       }
       // text finished, call callback if there is a callback function
       else if (typeof fnCallback == 'function') {

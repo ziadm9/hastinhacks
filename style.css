@@ -106,7 +106,7 @@ background: linear-gradient(180deg, rgba(57,57,57,1) 0%, rgba(33,33,33,1) 35%, r
 }
 .head{
     justify-content:start;
-    width:90%;
+    width:95%;
     padding:20px 20px 20px 20px;
 }
 .hTitle{
@@ -306,7 +306,7 @@ hr{
 }
 #maintext{
     color:rgb(247, 201, 107);
-    font-size:100px;
+    font-size:85px;
     font-weight:bold;
     
 }
