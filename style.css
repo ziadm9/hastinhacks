@@ -39,7 +39,7 @@ button{
 #nav{
     justify-content:space-between;
     align-items:center;
-    background-color: rgba(46,168,156,1);
+    background-color: #393939;
     width:100%;
     position:fixed;
     top: 0;
@@ -52,7 +52,7 @@ button{
 #nav2{
     justify-content:start;
     align-items:center;
-    background-color: rgba(46,168,156,1);
+    background-color: #393939;
     width:100%;
     position:fixed;
     top: 0;
@@ -65,6 +65,7 @@ button{
     color:#fefefe;
     transition: 0.3s;
     text-decoration:none;
+    text-shadow: rgba(255, 255, 255, 0.605) 0px 0px 10px;
 }
 .navlogo img{
     margin:20px;
@@ -84,16 +85,16 @@ button{
     color:rgb(247, 201, 107);
 }
 #wrapper{
-    background: rgb(52,145,212);
-    background: linear-gradient(180deg, rgba(46,168,156,1) 0%, rgba(43,158,146,1) 35%, rgb(44, 141, 131) 100%);
+    background: rgb(57,57,57);
+background: linear-gradient(180deg, rgba(57,57,57,1) 0%, rgba(33,33,33,1) 35%, rgba(23,23,23,1) 100%);
     height:auto;
     margin-top:50px;
     width:100%;
     align-items:center;
 }
 #wrapper2{
-    background: rgb(52,145,212);
-    background: linear-gradient(180deg, rgba(46,168,156,1) 0%, rgba(43,158,146,1) 35%, rgb(44, 141, 131) 100%);
+    background: rgb(57,57,57);
+background: linear-gradient(180deg, rgba(57,57,57,1) 0%, rgba(33,33,33,1) 35%, rgba(23,23,23,1) 100%);
     height:auto;
     width:100%;
     align-items:center;
@@ -109,6 +110,15 @@ button{
     font-size:50px;
     color:rgb(255, 255, 255);
     margin-bottom: 50px;
+    text-shadow: rgba(255, 255, 255, 0.605) 0px 0px 10px;
+}
+.hTitle2{
+    align-self:start;
+    font-weight:bold;
+    font-size:50px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 50px;
+    
 }
 .sItem{
     margin:10px;
@@ -247,8 +257,8 @@ button{
     color:rgb(247, 201, 107);
     font-size:18px;
     border-radius:10px;
-    box-shadow: 0px 0px 15px rgb(33, 116, 107);
-    background-color:rgb(49, 172, 160);
+    box-shadow: 0px 0px 15px #303030;
+    background-color:#393939;
     margin: 10px 0px 10px 0px;
     justify-content:center;
     font-weight:600;
