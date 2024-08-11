@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Hubot Sans';
+    font-family: 'JetBrains Mono';
     src:
-      url('Hubot-Sans.woff2') format('woff2 supports variations'),
-      url('Hubot-Sans.woff2') format('woff2-variations');
+      url('JetBrainsMono-Regular.woff2') format('woff2 supports variations'),
+      url('JetBrainsMono-Regular.woff2') format('woff2-variations');
     font-weight: 200 900;
     font-stretch: 75% 125%;
 }
@@ -16,7 +16,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:start;
-    font-family: 'Hubot Sans';
+    font-family: 'JetBrains Mono';
     
 }
 p{
@@ -103,6 +103,11 @@ background: linear-gradient(180deg, rgba(57,57,57,1) 0%, rgba(33,33,33,1) 35%, r
     justify-content:start;
     width:50%;
     padding:70px 20px 20px 20px;
+}
+.head{
+    justify-content:start;
+    width:90%;
+    padding:20px 20px 20px 20px;
 }
 .hTitle{
     align-self:start;
@@ -292,8 +297,18 @@ hr{
 }
 
 #top{
-    border: solid 1px black;
-    margin-top: 50px
+    margin-top:70px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#maintext{
+    color:rgb(247, 201, 107);
+    font-size:100px;
+    font-weight:bold;
+    
 }
 .sDesc{
     align-self:center;
