@@ -16,7 +16,8 @@ for (let i = 0; i < acc.length; i++) {
 
 document.addEventListener('DOMContentLoaded', function (event) {
   // array with texts to type in typewriter
-  var dataText = ['> init East Bay Hacks', '> Also known as HastinHacks'];
+  var dataText = ['>EastBayHacks.run()', '>preregistration.open()', '>hacking.allowed = true']
+
 
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
          
           typeWriter(dataText[i], 0, function () {
               // after callback (and whole text has been animated), start next text
-              StartTextAnimation((i + 1)%2);
+              StartTextAnimation((i + 1)%3);
           });
       }
   }

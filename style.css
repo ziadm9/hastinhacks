@@ -106,7 +106,7 @@ background: linear-gradient(180deg, rgba(57,57,57,1) 0%, rgba(33,33,33,1) 35%, r
 }
 .head{
     justify-content:start;
-    width:95%;
+    width:85%;
     padding:20px 20px 20px 20px;
 }
 .hTitle{
@@ -300,15 +300,21 @@ hr{
     margin-top:70px;
     text-align:center;
     display:flex;
-    align-items:center;
+    align-items:start;
     justify-content:center;
     
 }
 #maintext{
     color:rgb(247, 201, 107);
-    font-size:85px;
+    font-size:60px;
     font-weight:bold;
     
+}
+#prereg{
+    color:rgb(247, 201, 107);
+    font-size:40px;
+    font-weight:bold;
+    text-decoration:underline;
 }
 .sDesc{
     align-self:center;
